@@ -29,3 +29,6 @@ resource "aws_instance" "demo_ec2" {
 
     user_data = file(var.aws_ec2_userdata_file_location)
 }
+
+
+
