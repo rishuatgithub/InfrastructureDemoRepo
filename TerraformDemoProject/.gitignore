@@ -1,0 +1,7 @@
+.terraform
+.tfstate
+.plan
+*.out
+*.info
+*.tfstate
+*.tfstate.backup
