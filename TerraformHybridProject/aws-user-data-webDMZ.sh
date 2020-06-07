@@ -1,8 +1,11 @@
 #!/bin/bash
 
-sudo yum update -y
-sudo yum install httpd -y
+################################################################
+## This script installs Apache server and starts
+################################################################
 
+yum update -y
+yum install httpd -y
 service httpd start
 chkconfig httpd on
 
