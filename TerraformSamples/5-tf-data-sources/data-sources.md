@@ -1,0 +1,11 @@
+- For certain providers like AWS terraform provides datasources
+- Datasources provide you with dynamic information
+  - a lot of data is available by aws in a structured format using their api
+  - terraform exposes this information using data sources
+  - examples:
+    - List of amis
+    - list of availablility zones
+
+  - It also gives you IP addresses in use by aws
+  - It can also used to filter traffic based on a aws region
+  - Filtering in aws region can be done using **security groups**

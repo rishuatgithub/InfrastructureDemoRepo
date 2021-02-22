@@ -1,0 +1,3 @@
+- the template provider can help creating customized configuration file
+- you can build templates based on the variables from terraform resources e.g. public ip addresses
+- 
